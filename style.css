@@ -1,0 +1,60 @@
+#title{
+  color: blue;
+  font-size:42px;
+  font-family:Impact;
+  text-align: center
+}
+#show{
+  /*Answer*/
+  color: red;
+  font-size:30px;
+  font-family:ComicsansMS;
+}
+
+#d{
+  /*top type box */
+  color: blue;
+  font-size:32px;
+  font-family:ComicsansMS;
+  border:solid red;
+}
+#d:hover{
+  border:solid black;
+}
+
+#f{
+  /*bottom type box */
+  color: blue;
+  font-size:32px;
+  font-family:ComicsansMS;
+  border:solid red;
+}
+#f:hover{
+  border:solid black;
+}
+#pick{
+  /*box holding all buttons */
+  color:blue;
+  border:solid black;
+  width:350px;
+}
+#but{
+  /*individual buttons*/
+  padding:10px;
+  font-size:20px;
+  color:solid black;
+  background:rgb(66, 123, 214);
+}
+#but:hover{
+  background:rgb(121, 169, 247);
+}
+
+#text{
+  /*leadup to answer */
+  font-size:30px;
+  font-family:ComicsansMS;
+}
+#endLine{
+  /*answer combined with text*/
+  display: flex;
+}
